@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>{$name} {$seo_title} {$site_name}</title>
+<meta name="keywords" content="{$seo_keywords}" />
+<meta name="description" content="{$seo_description}">
+<tc_include file="Public:head" />
+</head>
+<body>
+	<tc_include file="Public:nav" />
+	<div id="news-banner" class="common-banner">
+		<div class="common-banner-icon"></div>
+	</div>
+	<div class="common-title-container">
+		<div class="ds-title-div">
+			<em class="common-title-icon"></em>
+			<span style="margin-left:18px;">新闻资讯</span>
+		</div>
+	</div>
+	<div class="news-wrapper">
+		<foreach name="posts" item="vo">
+		<a href="{:U('article/index', array('state'=>'news'))}" >
+		<div class="news-item" >
+			<div class="news-item-contaner">
+				<div class="news-img">
+					<div class="news-date">
+						<em style="font-size:20px;">{$vo.md}</em>
+						<em style="font-size:14px;">{$vo.year}</em>
+					</div>
+					<img class="news-icon" src="" alt="新闻图片"/>
+				</div>
+				<div class="news-detail">
+					<div class="news-desc" style="width: 654px;">
+						<h1 class="news-title">{$vo.post_title}</h1>
+						<span class="news-content">{$vo.post_excerpt}</span>
+					</div>
+					<div class="news-view">
+						<em></em>
+						<span class="news-num">{$vo.post_hits}</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		</a>
+		</foreach>
+		
+		<div class="news-page" style="width: 100%;background: #fff;padding-top: 30px;">
+		<div class="pagination"><ul>{$lists['page']}</ul></div>
+		</div>
+	</div>
+
+	<tc_include file="Public:footer" />
+
+	<!-- JavaScript -->
+	<tc_include file="Public:scripts" />
+</body>
+<script type="text/javascript">
+$(function(){
+	$('.news-item:last').children('.news-item-contaner').css('border-bottom', '0');
+})
+</script>
+</html>

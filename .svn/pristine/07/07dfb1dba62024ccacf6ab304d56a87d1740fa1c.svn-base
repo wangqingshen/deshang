@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{$name} {$seo_title} {$site_name}</title>
+	<meta name="keywords" content="{$seo_keywords}" />
+	<meta name="description" content="{$seo_description}">
+    <tc_include file="Public:head" />
+</head>
+<body>
+<tc_include file="Public:nav" />
+<div class="ds-part" style="background:#000;height:300px;width:100%;position:relative;">
+	<div style="position:absolute;width:40px;height:40px;background:#fff;left:50%;bottom:-20px;border-radius:50%;"></div>
+</div>
+<div class="ds-part" style="height:60px;width:100%;">
+	<div clas="ds-title" style="position:relative;width:1100px;margin:0 auto;height:60px;line-height:60px;font-size:16px;color:#533128;">
+		<icon style="position:absolute;width:8px; height:8px; border:2px solid #e62129;border-radius:50%;display: inline-block;top:28px"></icon>
+		<span style="margin-left:18px;">联系我们</span>
+	</div>
+</div>
+<div class="ds-part" style="background-color:#f5f5f5;width:100%;margin-bottom:120px;">
+	<div class="item" style="width:1100px;height:380px;margin:0 auto;">
+		<div style="width:430px;height:140px;background:#0093dd;border:1px solid #b0b3b3;box-shadow:0px 3px 4px #b0b3b3;margin:auto;"></div>
+		<div><icon></icon><span>优贝空间</span></div>
+	</div>
+</div>
+<tc_include file="Public:footer"/>
+    
+<!-- JavaScript -->
+<tc_include file="Public:scripts" />
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title>{$post_title} {$site_name} </title>
+		<meta name="keywords" content="{$post_keywords}" />
+		<meta name="description" content="{$post_excerpt}">
+		<tc_include file="Public:head" />
+	</head>
+<body class="">
+<tc_include file="Public:nav" />
+<div id="news-banner" class="common-banner">
+	<div class="common-banner-icon"></div>
+</div>
+<div class="common-title-container">
+	<div class="ds-title-div">
+		<em class="common-title-icon"></em>
+		<span style="margin-left:18px;">新闻资讯</span>
+	</div>
+</div>
+<div class="news-detail-wrapper">
+	<div class="news-detail-container">
+		<div class="news-detail-left">
+			<h1 class="news-detail-title">南水北调工程荣获国家级自然保护项目大奖</h1>
+			<div class="news-detail-info">
+				<span>发布时间：2016/04/05</span>
+				<span class="news-detail-line">|</span>
+				<span>浏览：100</span>
+			</div>
+			<div class="news-detail-content">
+				德商资本致力于用投资改变世界，满足优质创业项目再种子、天使、A轮、PE多层次融资需求。同时，还将在方向、战略、战术、人才、资源、行业、公司管理等方面提供全方位辅导和帮助，欢迎优质创业项目加入！
+				德商资本，是四川资金管有量名列前茅的投资机构，同时也是最具成长性的全国化快速发展企业，我们为员工提供最具发展空间的广阔平台，无论您是经验丰富的职场达人，还是初出茅庐的职场菜鸟，我们欢迎每一个有想法和创见的人加入！
+				在德商，无论您在哪个部门，您是何种身份，都是我们团队的一部分无论您是经验丰富的职场达人，初出茅庐的应届毕业生，还是成长中的在校生我们期待每一个有创见的人加入德商
+			</div>
+			<div class="news-detail-btn">
+				<a class="news-detail-prev" href="#">上一篇：世界环保组织机构正式成立</a>
+				<a class="news-detail-next" href="#">下一篇：马尔代夫三日游免费不是梦</a>
+			</div>
+			<div class="news-detail-btn">
+				<a class="news-detail-return" href="{:U('list/index',array('id'=>'2', 'state'=>'news'))}">返回列表</a>
+			</div>
+		</div>
+		<div class="news-detail-right">
+			<h2 class="news-detail-t">最新资讯</h2>
+			<ul class="news-detail-list">
+				<li><a href="#">电信宽带安置中心部署</a></li>
+				<li><a href="#">LOL职业联赛正式启动</a></li>
+				<li><a href="#">新版《花瓣在望》正式开拍，大腕云集</a></li>
+				<li><a href="#">德商资本在纽约挂牌上市</a></li>
+			</ul>
+			<div style="text-align: center;padding-top: 20px;">
+				<a class="news-detail-more" href="#">更多...</a>
+			</div>
+		</div>
+	</div>
+</div>
+<tc_include file="Public:footer"/>
+<tc_include file="Public:scripts"/>
+</body>
+</html>

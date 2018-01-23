@@ -1,0 +1,74 @@
+// 投资案例
+var List = {
+	page: 1,
+	pageSize: 
+	totalPage: '',
+	init: function() {
+		this.getList();
+	},
+
+	/**
+	 * 动态创建item树
+	 * @author 王小圆
+	 * @private
+	 */
+	createItemDom: function(res) {
+		var item = $('<div class="case-item" />'),
+			logo = $('<div class="case-item-logo"/>'),
+			icon = $('<div class="case-item-icon" />'),
+			img = $('<image class="case-item-image" />'),
+			btn = $('<a class="case-item-btn" />'),
+			desc = $('<div class="case-item-desc" />'),
+			t = $('<span class="case-item-title" />'),
+			detail = $('<span class="case-item-detail" />');
+		var _src = res.smeta;
+		if(_src == '' || _src == undefined) {
+			_src = imgUrl; //默认图
+		}else {
+			_src = imgUrl + JSON.parse(res.smeta).thumb;
+		}
+		img.attr({
+			'alt': res.post_title+'的LOGO',
+			'title': res.post_title,
+			'src': _src
+		});
+		btn.attr({
+			'href': res.post_link,
+			'target': '_blank'
+		}).text('点击进入网站');
+		t.text(res.post_title);
+		detail.text(res.post_content);
+		icon.append(img).append(btn);
+		logo.append(icon);
+		desc.append(t).append(detail);
+		item.append(logo).append(desc);
+		return item;
+	},
+
+	/**
+	 * 获取案例条目信息
+	 * @author 王小圆
+	 * @private
+	 */
+	getList: function(){
+		var _this = this;
+		$.ajax({
+			type: 'GET',
+			url: url,
+			data: 'page='+this.page,
+			dataType: 'json',
+			success: function(data) {
+				_this.totalPage = data.current_page;
+				var list = data.list;
+				list.map(function(v){
+					var item = List.createItemDom(v);
+					$('#invest-case-wrapper').append(item);
+				})	
+			},
+			error: function() {
+				console.log('error');
+			}
+		});
+	}
+};
+List.init();

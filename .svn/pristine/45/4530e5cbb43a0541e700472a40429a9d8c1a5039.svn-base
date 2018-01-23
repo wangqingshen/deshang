@@ -1,0 +1,140 @@
+// 投资案例
+var List = {
+	page: 1,
+	pageSize: 10,
+	totalPage: '',
+	pageStart: 0,
+	pageEnd: 0,
+	init: function() {
+		this.getList();
+		$('.case-more-btn').bind('click', function(){
+			List.page = List.page + 1;
+			List.getList();
+		});
+	},
+
+	/**
+	 * 动态创建item树
+	 * @author 王小圆
+	 * @private
+	 */
+	createItemDom: function(res) {
+		var item = $('<div class="case-item" />'),
+			logo = $('<div class="case-item-logo"/>'),
+			icon = $('<div class="case-item-icon" />'),
+			img = $('<image class="case-item-image" />'),
+			btn = $('<a class="case-item-btn" />'),
+			desc = $('<div class="case-item-desc" />'),
+			t = $('<span class="case-item-title" />'),
+			detail = $('<span class="case-item-detail" />');
+		var _src = res.smeta;
+		if(_src == '' || _src == undefined) {
+			_src = defaultUrl + 'case-default.png'; //默认图
+		}else {
+			_src = imgUrl + JSON.parse(res.smeta).thumb;
+		}
+		img.attr({
+			'alt': res.post_title+'的LOGO',
+			'title': res.post_title,
+			'src': defaultUrl + 'case-default.png'
+		});
+		btn.attr({
+			'href': res.post_link,
+			'target': '_blank'
+		}).text('点击进入网站');
+		t.text(res.post_title);
+		detail.text(res.post_content);
+		icon.append(img).append(btn).hover(
+			function(){
+				// $(this).css({
+				// 	'opacity':'0.9',
+				// 	'filter': 'alpha(opacity=90)'
+				// });
+				$(this).find('a').removeClass('case-item-btn').addClass('case-item-btn-hover');
+			},
+			function(){
+				// $(this).css({
+				// 	'opacity':'1',
+				// 	'filter': 'alpha(opacity=100)'
+				// });
+				$(this).find('a').removeClass('case-item-btn-hover').addClass('case-item-btn');
+			}
+		);
+		logo.append(icon);
+		desc.append(t).append(detail);
+		item.append(logo).append(desc);
+		return item;
+	},
+
+	/**
+	 * 获取案例条目信息
+	 * @author 王小圆
+	 * @private
+	 */
+	getList: function(){
+		var _this = this;
+		$.ajax({
+			type: 'GET',
+			url: url,
+			data: 'page='+this.page,
+			dataType: 'json',
+			beforeSend: function() {
+				var loadingDom = $('<div id="loading" style="width:1100px;margin:auto;text-align:center;"><img src="'+defaultUrl+'/icon/loading.gif" style="width:60px;height:60px;display:inline-block;"/><span style="color:#666;font-size:14px;display:block;">加载中</span></div>');
+            	$('#invest-case-wrapper').after(loadingDom);
+            },
+			success: function(data) {
+				$('#loading').remove();
+				_this.totalPage = data.current_page;
+				if(_this.totalPage <= _this.page * _this.page) {
+					
+				}
+				var list = data.list;
+				list.map(function(v){
+					var item = List.createItemDom(v);
+					$('#invest-case-wrapper').append(item);
+				});
+				$('.case-item:odd').css('margin-right', 0);
+			},
+			error: function() {
+				$('#loading').remove();
+				console.log('error');
+			}
+		});
+	},
+
+	getMoreList: function() {
+		var _this = this;
+		$.ajax({
+			type: 'GET',
+			url: url,
+			data: 'page='+this.page,
+			dataType: 'json',
+			beforeSend: function() {
+				var loadingDom = $('<div id="loading" style="width:1100px;margin:auto;text-align:center;"><img src="'+defaultUrl+'/icon/loading.gif" style="width:60px;height:60px;display:inline-block;"/><span style="color:#666;font-size:14px;display:block;">加载中</span></div>');
+            	$('#invest-case-wrapper').after(loadingDom);
+            },
+			success: function(data) {
+				$('#loading').remove();
+				_this.totalPage = data.current_page;
+				_this.pageEnd = _this.pageSize * _this.page;
+                _this.pageStart = _this.pageEnd - _this.page;
+				var list = data.list;
+				if(_this.pageStart <= list.length) {
+					for(var i = _this.pageStart; i < _this.pageEnd; i++){
+						var item = List.createItemDom(list[i]);
+						$('#invest-case-wrapper').append(item);
+					}
+					if((i + 1) >= list.length){ //数据加载完毕
+						$('#invest-case-wrapper').append('<div>已经加载完最后一条信息</div>');
+					}
+					$('.case-item:odd').css('margin-right', 0);
+				}
+			},
+			error: function() {
+				$('#loading').remove();
+				console.log('error');
+			}
+		});
+	}
+};
+List.init();

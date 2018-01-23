@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<title>青岛润航科技有限公司 产品展示</title>
+
+	<meta name="keywords" content="{$post_keywords}" />
+
+	<meta name="description" content="{$post_excerpt}">
+
+	<tc_include file="Public:head" />
+
+</head>
+
+<body>
+
+<tc_include file="Public:nav" />
+
+<div id="case-banner" class="common-banner">
+
+	<div class="common-banner-icon"></div>
+
+</div>
+
+<div class="common-title-container">
+
+	<div class="ds-title-div">
+
+		<em class="common-title-icon"></em>
+
+		<span style="margin-left:18px;">产品展示</span>
+
+	</div>
+
+</div>
+
+<div id="invest-case-wrapper" class="ds-part">
+
+      <div class="row">
+                    <div class="col-sm-3">
+                        <div class="box box-category">
+                            <div class="box-heading">产品分类</div>
+                            <div class="box-content">
+                                <ul class="accordion" id="accordion-category">
+                                    <li class="panel">
+                                        <a href="#">科技类</a>
+                                        <span class="head"><a style="float:right;padding-right:5px" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion-category" href="#"><span class="plus over" style="display: inline-block;">+</span><span class="minus" style="display: none;">-</span></a></span>
+                                        <div class="panel-collapse collapse" style="display: none;">
+                                            <ul>
+                                                <li>
+                                                     <a href="#">高科技 (3)</a>
+                                                    </li>
+                                                <li>
+                                                     <a href="#">小儿科 (3)</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="panel">
+                                        <a href="#">艺术类 (5)</a>
+                                    </li>
+                                    <li class="panel">
+                                        <a href="#">奥数类 (5)</a>
+                                    </li>
+                                    <li class="panel">
+                                        <a href="#">体育类 (5)</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-9">
+
+                        <div class="box clearfix box-with-products without-heading">
+
+                            <div class="clear"></div>
+
+                            <div class="box-content products">
+
+                                <div class="box-product">
+
+                                    <div id="myCarousel29678124">
+
+                                        <!-- Carousel items -->
+
+                                        <div class="carousel-inner">
+
+                                            <div class="active item">
+
+                                                <div class="product-grid">
+
+                                                    <div class="row">
+
+                                                        <foreach name="product" item="vo" key="k" >
+
+                                                        <div class="col-sm-3 col-xs-6  ">
+
+                                                            <!-- Product -->
+
+                                                            <div class="product clearfix product-hover">
+
+
+
+                                                                <div class="left">
+
+                                                                    <div class="image ">
+
+                                                                        <a href="{:U('productdetail/index', array('state'=>'detail','id'=>$vo['id']))}">
+
+                                                                            <img src="__UPLOAD__{$vo.p_img}" alt="YMK-P-1M" class="zoom-image-effect"></a>
+
+                                                                    </div>
+
+                                                                </div>
+
+                                                                <div class="right">
+
+                                                                    <div class="name">
+
+                                                                        <a href="{:U('productdetail/index', array('state'=>'detail','id'=>$vo['id']))}">{$vo.p_name}</a></div>
+
+                                                                    <div class="price">￥{$vo.p_price}</div>
+
+                                                                 
+
+                                                                </div>
+
+
+
+                                                            </div>
+
+                                                        </div>
+
+                                                        </foreach>
+
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+<!-- 	<foreach name="posts" item="vo">
+
+	<div class="case-item" >
+
+		<div class="case-item-logo">
+
+			<div class="case-item-icon">
+
+				<php>$smeta=json_decode($vo['smeta'],true);</php>
+
+				<image src="{:sp_get_asset_upload_path($smeta['thumb'])}" alt="投资项目logo" class="case-item-image" />
+
+				<a class="case-item-btn" href="#">点击进入网站</a>
+
+			</div>
+
+		</div>
+
+		<div class="case-item-desc">
+
+			<span class="case-item-title">{$vo.post_title}</span>
+
+			<span class="case-item-detail">
+
+				{$vo.post_content}
+
+			</span>
+
+		</div>
+
+	</div>
+
+	</foreach> -->
+
+</div>
+
+<div class="case-more-wrapper">
+
+	<a class="case-more-btn">加载更多</a>
+
+</div>
+
+<tc_include file="Public:footer"/>
+
+    
+
+<!-- JavaScript -->
+
+<tc_include file="Public:scripts" />
+
+</body>
+
+<script type="text/javascript">
+
+	var url = "{:U('page/investment_list')}",
+
+		imgUrl = "__ROOT__/data/upload/",
+
+		defaultUrl = "__TMPL__Public/images/";
+    $(document).ready(function(){
+        $('a.accordion-toggle').bind('click', function(){
+            $(this).parent().siblings('.panel-collapse').toggle(300);
+            if($(this).children('span.plus').hasClass('over')) {
+                $(this).children('span.plus').removeClass('over').hide();
+                $(this).children('span.minus').addClass('over').show();
+            }else{
+                $(this).children('span.minus').removeClass('over').hide();
+                $(this).children('span.plus').addClass('over').show();
+            }
+        });
+    });
+</script>
+
+ <script src="__TMPL__Public/js/case.js"></script>

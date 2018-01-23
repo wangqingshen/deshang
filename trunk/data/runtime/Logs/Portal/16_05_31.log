@@ -1,0 +1,36 @@
+[ 2016-05-31T19:40:28+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=&m=page&a=investment_list&page=1&number=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001021s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003894s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+SQL: SHOW COLUMNS FROM `dh_posts` [ RunTime:0.0158s ]
+SQL: SHOW COLUMNS FROM `dh_terms` [ RunTime:0.0439s ]
+SQL: SHOW COLUMNS FROM `dh_term_relationships` [ RunTime:0.0338s ]
+SQL: SELECT COUNT(*) AS tp_count FROM dh_term_relationships a INNER JOIN dh_posts b ON a.object_id = b.id  WHERE ( a.term_id = 3 and a.status=1 ) LIMIT 1   [ RunTime:0.0285s ]
+SQL: SELECT * FROM dh_term_relationships a INNER JOIN dh_posts b ON a.object_id = b.id  WHERE ( a.term_id = 3 and a.status=1 ) ORDER BY a.listorder ASC,b.post_modified DESC LIMIT 0,10   [ RunTime:0.0170s ]
+
+[ 2016-05-31T19:40:31+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=&m=page&a=investment_list&page=1&number=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001755s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005380s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+SQL: SHOW COLUMNS FROM `dh_posts` [ RunTime:0.0174s ]
+SQL: SHOW COLUMNS FROM `dh_terms` [ RunTime:0.0149s ]
+SQL: SHOW COLUMNS FROM `dh_term_relationships` [ RunTime:0.0138s ]
+SQL: SELECT COUNT(*) AS tp_count FROM dh_term_relationships a INNER JOIN dh_posts b ON a.object_id = b.id  WHERE ( a.term_id = 3 and a.status=1 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM dh_term_relationships a INNER JOIN dh_posts b ON a.object_id = b.id  WHERE ( a.term_id = 3 and a.status=1 ) ORDER BY a.listorder ASC,b.post_modified DESC LIMIT 0,10   [ RunTime:0.0193s ]
+
+[ 2016-05-31T19:43:47+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=&m=page&a=investment_list&page=1&number=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003530s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+SQL: SHOW COLUMNS FROM `dh_posts` [ RunTime:0.0172s ]
+SQL: SHOW COLUMNS FROM `dh_terms` [ RunTime:0.0178s ]
+SQL: SHOW COLUMNS FROM `dh_term_relationships` [ RunTime:0.0186s ]
+SQL: SELECT COUNT(*) AS tp_count FROM dh_term_relationships a INNER JOIN dh_posts b ON a.object_id = b.id  WHERE ( a.term_id = 3 and a.status=1 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM dh_term_relationships a INNER JOIN dh_posts b ON a.object_id = b.id  WHERE ( a.term_id = 3 and a.status=1 ) ORDER BY a.listorder ASC,b.post_modified DESC LIMIT 0,10   [ RunTime:0.0233s ]
+

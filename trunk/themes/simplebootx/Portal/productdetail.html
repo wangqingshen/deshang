@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <title>青岛润航科技有限公司 商品详情</title>
+        <meta name="keywords" content="{$post_keywords}" />
+        <meta name="description" content="{$post_excerpt}">
+        <tc_include file="Public:head" />
+    </head>
+<body class="">
+<tc_include file="Public:nav" />
+<div id="case-banner" class="common-banner">
+    <div class="common-banner-icon"></div>
+</div>
+<div class="common-title-container">
+    <div class="ds-title-div">
+        <em class="common-title-icon"></em>
+        <span style="margin-left:18px;">商品详情</span>
+    </div>
+</div>
+<div class="news-detail-wrapper">
+    <div class="news-detail-container">
+        <div class="news-detail-left" style="width: 100%;margin-right: 0;">
+            <h1 class="news-detail-title" style="font-size: 24px;font-weight: 600;color: #434343;">LOL官方手套</h1>
+            <div class="news-detail-content">
+                <img src="http://www.chinarunhang.com/data/upload/20170913/59b8f5fd07cb9.jpg" alt="商品图" style="width: 50%;"/>
+                <div class="product-desc" style="border-bottom: 1px dashed #ddd;padding: 25px 0;">
+                    详细描述：<span style="font-size: 14px;font-weight: 600;">iPhone is a revolutionary new mobile phone that allows you to make a call by simply tapping a name or number in your address book, a favorites list, or a call log. It also automatically syncs all your contacts from a PC, Mac, or Internet service. And it lets you select and listen to voicemail messages in whatever order you want just like email.</span>
+                </div>
+                <div class="prodcut-catalog" style="border-bottom: 1px dashed #ddd;padding: 10px 0;">所属分类： <span style="font-size: 14px;font-weight: 600;">服装</span></div>
+                <div class="product-price" style="padding: 10px 0 0;">价格： <span style="font-size: 18px;font-weight: 600;">￥21.00</span></div>
+
+            </div>
+            <div class="news-detail-btn" style="margin-top: 20px;">
+                <a class="news-detail-return" href="{:U('page/index',array('id'=>'1', 'state'=>'case'))}" data-state="case">返回列表</a>
+            </div>
+        </div>
+       <!--  <div class="news-detail-right">
+            <h2 class="news-detail-t">最新资讯</h2>
+            <ul class="news-detail-list">
+                <foreach name="new_articles" item="vo">
+                <li style="position:relative;"><em style="display:inline-block;width:3px;height:3px;background-color:#666;left:0;top:6px;position:absolute;"></em><a style="margin-left:10px;" href="{:U('article/index',array('id'=>$vo['tid'], 'state'=>'news'))}">{$vo.post_title}</a></li>
+                </foreach>
+            </ul>
+            <div style="text-align: center;padding-top: 20px;">
+                <a class="news-detail-more" href="{:U('list/index',array('id'=>'2', 'state'=>'news'))}">更多...</a>
+            </div>
+        </div> -->
+    </div>
+</div>
+<tc_include file="Public:footer"/>
+<tc_include file="Public:scripts"/>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>联系我们 {$site_name}</title>
+<meta name="keywords" content="{$site_seo_keywords}" />
+<meta name="description" content="{$site_seo_description}">
+<tc_include file="Public:head" />
+
+<script src="http://api.map.baidu.com/api?v=1.3"></script>
+</head>
+<body>
+	<tc_include file="Public:nav" />
+	<div id="contact-banner" class="common-banner">
+		<div class="common-banner-icon"></div>
+	</div>
+	<div class="common-title-container">
+		<div class="ds-title-div">
+			<em class="common-title-icon"></em>
+			<span style="margin-left:18px;">联系我们</span>
+		</div>
+	</div>
+	<div class="contact-wrapper" >
+		<div class="contact-container">
+			<div class="contact-detail">
+				<h1>加入德商资本</h1>
+				<em>在德商，无论您在哪个部门，您是何种身份，都是我们团队的一部分无论您是经验丰富的职场达人，初出茅庐的应届毕业生，还是成长中的在校生我们期待每一个有创见的人加入德商</em>
+			</div>
+			<div class="contact-fun">
+				<div class="contact-item">
+					<em class="contact-item-img" style="background: url(__TMPL__Public/images/icon/contact_email.png) no-repeat center"></em>
+					<span class="contact-item-email">BP@desunfund.com</span>
+					<em class="contact-item-icon"></em>
+					<span class="contact-item-t">BP邮箱</span>
+				</div>
+				<div class="contact-item">
+					<em class="contact-item-img" style="background: url(__TMPL__Public/images/icon/contact_email.png) no-repeat center"></em>
+					<span class="contact-item-email">HR@desunfund.com</span>
+					<em class="contact-item-icon"></em>
+					<span class="contact-item-t">HR邮箱</span>
+				</div>
+				<div class="contact-item" style="margin-right: 0;">
+					<em class="contact-item-img" style="background: url(__TMPL__Public/images/icon/contact_add.png) no-repeat center"></em>
+					<span class="contact-item-add">四川省成都市高新区孵化园德商国际A座1501</span>
+					<em class="contact-item-icon"></em>
+					<span class="contact-item-t" style="margin-top: 20px;">地址</span>
+				</div>
+			</div>
+			<div class="section slice no-padding">
+				<div id="mapCanvas" class="map-canvas no-margin" style="height: 400px;">
+					<script type="text/javascript">
+				var map = new BMap.Map("mapCanvas"); // 创建Map实例
+				var point = new BMap.Point("104.066787", "30.579925"); // 创建点坐标
+				map.centerAndZoom(point, 15); // 初始化地图,设置中心点坐标和地图级别。
+				map.enableScrollWheelZoom(); //启用滚轮放大缩小
+				//添加缩放控件
+				map.addControl(new BMap.NavigationControl());
+				map.addControl(new BMap.ScaleControl());
+				map.addControl(new BMap.OverviewMapControl());
+
+				var marker = new BMap.Marker(point); // 创建标注 
+				map.addOverlay(marker); // 将标注添加到地图中
+				var infoWindow = new BMap.InfoWindow("<span class=''>地址：成都市高新区孵化园德商国际A座1501</span>"); // 创建信息窗口对象
+				marker.openInfoWindow(infoWindow);
+			</script>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<tc_include file="Public:footer" />
+	<tc_include file="Public:scripts" />
+
+</body>
+</html>

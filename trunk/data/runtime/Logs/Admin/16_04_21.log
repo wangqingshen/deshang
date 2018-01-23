@@ -1,0 +1,61 @@
+[ 2016-04-21T19:53:55+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008227s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026458s ]
+SQL: SHOW COLUMNS FROM `dh_users` [ RunTime:0.0176s ]
+SQL: SELECT * FROM `dh_users` WHERE `user_login` = 'cgkei23' LIMIT 1   [ RunTime:0.0204s ]
+
+[ 2016-04-21T19:54:10+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007654s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.013684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025650s ]
+SQL: SHOW COLUMNS FROM `dh_users` [ RunTime:0.0162s ]
+SQL: SELECT * FROM `dh_users` WHERE `user_login` = 'admin' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `dh_role_user` [ RunTime:0.0140s ]
+SQL: SELECT `role_id` FROM dh_role_user a INNER JOIN dh_role as b on a.role_id =b.id  WHERE `user_id` = '1' AND `status` = 1  [ RunTime:0.0424s ]
+SQL: UPDATE `dh_users` SET `user_login`='admin',`user_pass`='###1631a822020da3ae168a90f3000a57a4',`user_nicename`='admin',`user_email`='dsds@dsds.com',`user_url`='',`avatar`=NULL,`sex`='0',`birthday`=NULL,`signature`=NULL,`last_login_ip`='127.0.0.1',`last_login_time`='2016-04-21 19:54:10',`create_time`='2016-03-29 09:03:46',`user_activation_key`='',`user_status`='1',`score`='0',`user_type`='1',`coin`='0',`mobile`='' WHERE `id` = '1' [ RunTime:0.0214s ]
+
+[ 2016-04-21T19:55:04+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=Admin&m=Rbac&a=authorize&id=2
+NOTIC: D方法实例化没找到模型类Common\Model\AuthAccessModel
+
+[ 2016-04-21T20:34:41+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=Admin&m=slide&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001824s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.006955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009926s ]
+SQL: SHOW COLUMNS FROM `dh_users` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `dh_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dh_slide` [ RunTime:0.0138s ]
+SQL: SHOW COLUMNS FROM `dh_slide_cat` [ RunTime:0.0149s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\deshang\trunk\simplewind\Core\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\deshang\trunk\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `dh_slide` (`slide_cid`,`slide_name`,`slide_url`,`slide_des`,`slide_content`,`slide_pic`) VALUES ('1','banner1','http://baidu.com','首页轮播一','首页轮播一','/deshang/trunk/data/upload/20160421/5718c8bbc773b.jpg') [ RunTime:0.0223s ]
+
+[ 2016-04-21T20:35:38+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=Admin&m=slide&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001798s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.005790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008359s ]
+SQL: SHOW COLUMNS FROM `dh_users` [ RunTime:0.0175s ]
+SQL: SELECT * FROM `dh_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `dh_slide` [ RunTime:0.0153s ]
+SQL: SHOW COLUMNS FROM `dh_slide_cat` [ RunTime:0.0150s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\deshang\trunk\simplewind\Core\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\deshang\trunk\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `dh_slide` (`slide_cid`,`slide_name`,`slide_url`,`slide_des`,`slide_content`,`slide_pic`) VALUES ('1','bann','http://jd.com','首页轮播二','首页轮播二','/deshang/trunk/data/upload/20160421/5718c8f1273e3.jpg') [ RunTime:0.0005s ]
+
+[ 2016-04-21T20:36:14+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=Admin&m=slide&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001417s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007475s ]
+SQL: SHOW COLUMNS FROM `dh_users` [ RunTime:0.0188s ]
+SQL: SELECT * FROM `dh_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `dh_slide` [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `dh_slide_cat` [ RunTime:0.0148s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\deshang\trunk\simplewind\Core\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\deshang\trunk\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `dh_slide` (`slide_cid`,`slide_name`,`slide_url`,`slide_des`,`slide_content`,`slide_pic`) VALUES ('1','banner3','http://jd.com','首页轮播三','首页轮播三','/deshang/trunk/data/upload/20160421/5718c925459f1.jpg') [ RunTime:0.0007s ]
+

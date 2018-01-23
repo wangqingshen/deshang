@@ -1,0 +1,21 @@
+[ 2017-09-12T21:08:01+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001144s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004879s ]
+NOTIC: [8] Undefined index: url E:\xampp\htdocs\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2017-09-12T21:13:43+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002567s ]
+NOTIC: [8] Undefined index: url E:\xampp\htdocs\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2017-09-12T21:13:44+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000938s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003134s ]
+NOTIC: [8] Undefined index: url E:\xampp\htdocs\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+

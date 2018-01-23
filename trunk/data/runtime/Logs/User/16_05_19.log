@@ -1,0 +1,637 @@
+[ 2016-05-19T18:37:36+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001760s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007127s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T18:37:46+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003979s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003143s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008696s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T18:40:12+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001302s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004442s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T18:40:26+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002335s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006715s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T18:41:03+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001199s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004605s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T18:41:49+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001143s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004820s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T18:49:40+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002538s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006006s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T18:49:47+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001327s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007102s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T18:55:40+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001286s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004501s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T18:55:45+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001285s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004662s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T18:56:11+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001105s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003974s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T18:57:38+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001796s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005409s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T18:58:41+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000973s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004072s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T18:58:54+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003655s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008415s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T19:14:41+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001721s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008025s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T19:22:08+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002480s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.006078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010182s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T19:25:03+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002526s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007928s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T19:25:55+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002566s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007511s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T19:27:32+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001695s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005422s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T19:30:47+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001021s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003859s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T19:30:57+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001210s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005589s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T19:31:39+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001164s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005778s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T19:36:25+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001424s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005318s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T19:36:50+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001621s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004426s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T19:38:06+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000925s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003328s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T19:38:22+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000919s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004014s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T19:42:00+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000961s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004110s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T19:42:15+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001401s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005575s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T19:42:35+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003939s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T19:43:49+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001765s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006285s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T19:44:33+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001755s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.005125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008106s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T20:01:32+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001933s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007880s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T20:02:04+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001607s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004833s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T20:02:15+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002407s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006664s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T20:03:03+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003132s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.005801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014514s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T20:05:12+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001264s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006686s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T20:05:37+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001570s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006455s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T20:05:49+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001876s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006046s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T20:07:22+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002044s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007985s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T20:08:06+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001495s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006242s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T20:12:24+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003720s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.006592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013865s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T20:13:40+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002550s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.005224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009175s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T20:16:52+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001886s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007828s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T20:17:38+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000946s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004263s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T20:20:19+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001837s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005743s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T20:22:53+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001186s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004232s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T20:23:38+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001514s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006153s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T20:31:08+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004878s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011148s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T20:31:11+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003280s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009861s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T20:31:20+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001860s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005840s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T20:31:46+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002257s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009133s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T20:31:59+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002058s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006663s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T20:32:01+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001446s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005701s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T20:32:22+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004080s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008241s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T20:34:31+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003691s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008128s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T20:34:34+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003939s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008626s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T20:35:00+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001489s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006309s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T20:36:02+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002368s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006453s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T20:36:04+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005235s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009484s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T20:36:25+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002067s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.006336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009899s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T20:36:28+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001951s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.005080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008181s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T20:36:31+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001162s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004149s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T20:37:32+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001301s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006261s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T20:37:39+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001375s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005329s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T20:37:42+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001659s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008067s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T20:37:49+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001687s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007470s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T20:37:54+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001559s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006733s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T20:39:37+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001429s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005611s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T20:40:40+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001461s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.005314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007770s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T20:40:55+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001380s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004597s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T20:41:01+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004771s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009484s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T20:41:16+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000956s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003443s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T20:42:24+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001235s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004431s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T20:45:29+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002555s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006271s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T20:46:27+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003309s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008551s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T20:47:31+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001919s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007363s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T20:47:34+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001617s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005485s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T20:48:07+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001400s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.005875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008304s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T20:53:19+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001509s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007034s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T20:55:00+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001520s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007268s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T20:55:12+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004365s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.007355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013667s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T20:55:50+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001535s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005219s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T21:01:08+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001462s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005359s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T21:01:12+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001839s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007132s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T21:01:19+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001673s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006003s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T21:01:21+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002554s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008402s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T21:04:45+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002088s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006479s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T21:04:47+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001402s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007370s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T21:05:21+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002826s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008791s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T21:09:22+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001008s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003756s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-19T21:13:15+08:00 ] 127.0.0.1 /deshang/trunk/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001004s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006770s ]
+NOTIC: [8] Undefined index: url F:\wamp\www\deshang\trunk\application\Common\Controller\AppframeController.class.php 第 24 行.
+
